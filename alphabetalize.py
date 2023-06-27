@@ -1,0 +1,10 @@
+print("Alphabetize the List Below")
+print()
+words = input("Enter you list of items with spaces in between to sort them in alphabetical order.\n\n")
+words = words.split()
+words.sort()
+print()
+print()
+print("Here is your list in alphabetical order! \n")
+for word in words:
+  print(str(word)+"\n")
